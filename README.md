@@ -30,7 +30,7 @@ For now `.get` only returns:
 
 ```json
 {
-  totalStars: 3084,
-  repos: [ { name: 'grommet', stars: 2543 }, ... ],
+  "totalStars": 3084,
+  "repos": [ { "name": 'grommet', "stars": 2543 }, ... ],
 }
 ```
