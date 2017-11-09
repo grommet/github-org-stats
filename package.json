@@ -1,0 +1,36 @@
+{
+  "name": "github-org-stats",
+  "version": "0.1.0",
+  "description": "Gather statistics for your github organization",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib --copy-files --loose-mode"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grommet/github-org-stats.git"
+  },
+  "keywords": [
+    "stats"
+  ],
+  "authors": [
+    "alansouzati",
+    "cherih",
+    "dgennetten"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grommet/github-org-stats/issues"
+  },
+  "homepage": "https://github.com/grommet/github-org-stats#readme",
+  "devDependencies": {
+    "babel-cli": "^6.1.18",
+    "babel-core": "^6.1.18",
+    "babel-plugin-transform-object-rest-spread": "^6.3.13",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-stage-1": "^6.24.1"
+  },
+  "dependencies": {
+    "github": "^12.0.1"
+  }
+}
